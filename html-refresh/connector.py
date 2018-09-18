@@ -5,5 +5,5 @@ while (True):
 	opener.addheaders.append(('Cookie', 't=XXXXXXXXX'))
 	url = 'XXXXXXXXXXXXXXXXX'
 	f = opener.open(url)
-	stuff = f.read()
-	print stuff
+	site = f.read()
+	print (site)
