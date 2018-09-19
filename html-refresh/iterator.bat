@@ -4,5 +4,5 @@ FOR /L %%A IN (1,1,5) DO (
   START "" run.bat
 )
 TIMEOUT /T 3000 /NOBREAK
-TASKKILL /F /IM .exe
+TASKKILL /F /IM python.exe
 goto loop
