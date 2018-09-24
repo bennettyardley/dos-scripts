@@ -1,4 +1,4 @@
 import os
 
 while True:
-    os.system(" cmd {echo Test}")
+    os.system("start cmd {echo Test}")
