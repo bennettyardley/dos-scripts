@@ -1,4 +1,4 @@
-import urllib2
+ urllib2
 
 while (True):
 	opener = urllib2.build_opener()
